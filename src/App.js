@@ -30,7 +30,7 @@ import ASF from './component/Intermidiate/ASF'
 import APITypesInfo from './component/Intermidiate/APITypesInfo'
 import Analytics from './component/Intermidiate/Analytics'
 import Task from './component/Task'
-
+import Home from './component/Home'
 
 
 
@@ -47,9 +47,10 @@ const App = () => {
      
 
         {/* Route to show MenteeForm */}
-        <Route path="/" element={<Dashboard />} />
+        <Route path="/" element={<Home />} />
         
-    
+        <Route path="/dashboard" element={<Dashboard />} />
+        
         <Route path="/intro" element={<Introduction />} />
         <Route path="/pdlc" element={<PDLC />} />
         <Route path="/prodprocess" element={<ProductDevProcess />} />
