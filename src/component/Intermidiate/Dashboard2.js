@@ -20,6 +20,7 @@ import CDN from "./CDN";
 import CloudServerSimulate from "./CloudServerSimulate";
 import ASF from "./ASF";
 import APITypesInfo from "./APITypesInfo";
+import Northstar from "./Northstar";
 
 // Array of lessons with id, title, component, and a colorful icon.
 const lessons = [
@@ -91,6 +92,13 @@ const lessons = [
     id: 10,
     title: "API Types",
     component: APITypesInfo,
+    icon: <FaClipboardCheck className="text-pink-500" />,
+  },
+
+  {
+    id: 10,
+    title: "North star Metrics",
+    component: Northstar,
     icon: <FaClipboardCheck className="text-pink-500" />,
   },
 ];

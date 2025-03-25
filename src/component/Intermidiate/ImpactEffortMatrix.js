@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ImpactEffortMatrixCreate from "./ImpactEffortMatrixCreate";
 import {
   FaPrint,
   FaBolt,
@@ -396,6 +397,7 @@ const ImpactEffortMatrix = () => {
           wins with long-term strategy.
         </p>
       </div>
+      <ImpactEffortMatrixCreate/>
     </div>
   );
 };

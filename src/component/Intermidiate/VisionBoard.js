@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import VisionDisplay from './VisionDisplay'
+import VisionBoardCreate from './VisionBoardCreate'
 
 import {
   FaPrint,
@@ -498,6 +499,7 @@ const ProductVisionBoard = () => {
     
       </section>
       <VisionDisplay/>
+      <VisionBoardCreate/>
     </div>
     
   );

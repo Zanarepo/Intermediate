@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import AgileCreate from "./AgileCreate";
 
 /* Reusable Quiz Component */
 const Quiz = ({ quizId, question, options, correctAnswer }) => {
@@ -432,6 +433,7 @@ const AgileScrumComponent = () => {
           Experience an interactive simulation of a sprint: move through Sprint Planning, Backlog Grooming, and Daily Standups. Click “Next” and “Previous” to navigate through the stages.
         </p>
         <AgileSprintSimulation />
+        <AgileCreate/>
       </section>
     </div>
   );
