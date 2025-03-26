@@ -1,4 +1,10 @@
 import React, { useState } from "react";
+import  CustomerMarketResearchSimulation from "./CustomerMarketResearchSimulation";
+import UserPainPointsSimulation from "./UserPainPointsSimulation";
+import CompetitiveAnalysisSimulation from "./CompetitiveAnalysisSimulation";
+import UserInterviewSimulation from "./UserInterviewSimulation";
+import LemonadeSimulation from "./LemonadeSimulation";
+
 
 /* Quiz Component */
 const Quiz = ({ quizId, question, options, correctAnswer }) => {
@@ -343,7 +349,17 @@ const PMConcepts = () => {
           <li>✅ Ask them what they want (User Interviews)</li>
           <li>✅ Use data, not guesses (Data-Driven Decisions)</li>
         </ul>
-      </section>
+      </section> <br/>
+
+      <CustomerMarketResearchSimulation/> <br/>
+
+<UserPainPointsSimulation/> <br/>
+
+<CompetitiveAnalysisSimulation/> <br/>
+<UserInterviewSimulation/> <br/>
+<LemonadeSimulation/> <br/>
+
+
     </div>
   );
 };

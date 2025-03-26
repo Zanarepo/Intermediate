@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+
+import ProductDevelopmentSimulation from './ProductDevelopmentSimulation';
 import {
   FaLightbulb,
   FaSearch,
@@ -59,7 +61,8 @@ const ProductDevelopmentLifecycle = () => {
   };
 
   return (
-    <div className="max-w-3xl mx-auto mt-8 px-4">
+    <div className="w-full mx-auto mt-8 px-0">
+
       <h1 className="text-3xl font-bold mb-6 text-center">Product Development Lifecycle</h1>
       <div className="flex flex-wrap mb-6">
         {tabs.map((tab) => (
@@ -246,8 +249,12 @@ const ProductDevelopmentLifecycle = () => {
             </div>
           </div>
         )}
-      </div>
+      </div> <br/>
+  
+      <ProductDevelopmentSimulation/>
+
     </div>
+    
   );
 };
 

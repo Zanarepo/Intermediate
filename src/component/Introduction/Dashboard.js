@@ -34,18 +34,22 @@ const lessons = [
     component: Introduction,
     icon: <FaHome className="text-indigo-500" />,
   },
+
   {
     id: 2,
+    title: "Product Development Lifecycle (PDLC)",
+    component: ProductDevProcess,
+    icon: <FaTasks className="text-orange-500" />,
+  },
+
+  {
+    id: 3,
     title: "Product Development Lifecycle (PDLC)",
     component: PDLC,
     icon: <FaBookOpen className="text-green-500" />,
   },
-  {
-    id: 3,
-    title: "Product Development Process",
-    component: ProductDevProcess,
-    icon: <FaTasks className="text-orange-500" />,
-  },
+
+
   {
     id: 4,
     title: "Customer & Market Research",
@@ -88,6 +92,7 @@ const lessons = [
     title: "User Research",
     component: UserResearch,
     icon: <FaUserAlt className="text-green-500" />,
+
   },
 ];
 
@@ -156,6 +161,7 @@ const DashboardBasic = () => {
           </>
         )}
       </div>
+     
     </div>
   );
 };

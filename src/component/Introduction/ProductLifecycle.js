@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 /* ------------------- Quiz Component ------------------- */
 const Quiz = ({ quizId, quiz }) => {
   const [selected, setSelected] = useState("");
@@ -386,7 +387,8 @@ const ProductLifecycle = () => {
         <p>
           The Product Lifecycle helps businesses make strategic decisions at each stage. Knowing when to invest, expand, monetize, or pivot is crucial to long‑term success. A successful product – like Instagram – continually reinvents itself (for example, launching Reels to compete with TikTok) to avoid decline.
         </p>
-      </section>
+      </section> <br/>
+
     </div>
   );
 };

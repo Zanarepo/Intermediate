@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import APISimulation from './APISimulation';
 import {
   FaNetworkWired,
   FaDesktop,
@@ -160,6 +161,7 @@ const APITypesInfo = () => {
           </div>
         ))}
       </div>
+      <APISimulation />
     </div>
   );
 };

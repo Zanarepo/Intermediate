@@ -1,4 +1,9 @@
 import React, { useState } from "react";
+import WorkshopSimulation from "./WorkshopSimulation";
+import TechnicalConstraintsSimulation from "./TechnicalConstraintsSimulation";
+import RealTimeChatSimulation from "./RealTimeChatSimulation";
+import OrderProcessingSimulation from "./OrderProcessingSimulation";
+import PRDSimulation from "./PRDSimulation";
 import {
   FaPrint,
   FaUsers,
@@ -425,6 +430,11 @@ const PMWorkflow = () => {
           feasible and on schedule.
         </p>
       </div>
+      <WorkshopSimulation/> <br/>
+      <TechnicalConstraintsSimulation/>
+      <RealTimeChatSimulation/>
+      <OrderProcessingSimulation/>
+      <PRDSimulation/>
     </div>
   );
 };
