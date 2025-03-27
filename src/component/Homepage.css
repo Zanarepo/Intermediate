@@ -45,6 +45,12 @@
     color: #880e4f;
   }
   
+  .dashboard3 {
+    background-color: #942e50;
+    color: #ffffff;
+  }
+  
+
   /* Styling for tile headings */
   .tile h3 {
     margin-top: 15px;
