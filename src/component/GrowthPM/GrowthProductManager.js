@@ -1,13 +1,5 @@
 import React from 'react';
-import DataDrivenSimulation from './DataDrivenSimulation';
-import CustomerAcquisitionRetention from './CustomerAcquisitionRetention';
-import MarketUserInsights from './MarketUserInsights';
-import MarketInsightsAndCollaboration from './MarketInsightsAndCollaboration';
-import StrategicThinkingInnovation from './StrategicThinkingInnovation';
-import StrategicThinkingInnovation2 from './StrategicThinkingInnovation2';
-import OperationalExcel    from './OperationalExcel'
-import ExperimentationTesting from './ExperimentationTesting';
-import RapidGrowthScaling from './RapidGrowthScaling'
+import GrowthDashboard from './GrowthDashboard';
 import {
   FaChartLine,
   FaUsers,
@@ -168,16 +160,7 @@ const GrowthProductManager = () => {
               </div>
             </div>
           </div>
-        </section> <br/>
-        <DataDrivenSimulation/> <br/>
-       < CustomerAcquisitionRetention/> <br/>
-        <MarketUserInsights/> <br/>
-        <MarketInsightsAndCollaboration/> <br/>
-        <StrategicThinkingInnovation/> <br/>
-        <StrategicThinkingInnovation2/> <br/>
-        <OperationalExcel/> <br/>
-        <ExperimentationTesting /> <br/>
-        <RapidGrowthScaling/> <br/>
+        </section> 
 
 
         <footer className="mt-8 text-center">
@@ -187,6 +170,7 @@ const GrowthProductManager = () => {
           </p>
         </footer>
       </div>
+      <GrowthDashboard/> <br/>
     </div>
   );
 };
