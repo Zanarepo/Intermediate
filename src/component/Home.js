@@ -22,11 +22,12 @@ const Homepage = () => {
           <h3>Intermediate Lessons</h3>
         </Link>
 
-        <Link to="/growth" className="tile dashboard3">
+        <Link to="/all" className="tile dashboard3">
           <FaChartBar size={50} />
           <h3>Growth</h3>
         </Link>
       </div>
+   
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import GrowthDashboard from './GrowthDashboard';
+
 import {
   FaChartLine,
   FaUsers,
@@ -170,7 +170,7 @@ const GrowthProductManager = () => {
           </p>
         </footer>
       </div>
-      <GrowthDashboard/> <br/>
+
     </div>
   );
 };

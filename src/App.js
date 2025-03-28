@@ -32,13 +32,28 @@ import Analytics from './component/Intermidiate/Analytics'
 import Task from './component/Task'
 import Home from './component/Home'
 import PRD from './component/PRD'
-
+import GrowthHome from './component/Growth2/GrowthHome'
 
 // Growth PM
 import GrowthProductManager from './component/GrowthPM/GrowthProductManager'
 import GrowthDashboard from './component/GrowthPM/GrowthDashboard'
-
-
+import ExperimentationGuide from './component/Growth2/ExperimentationGuide'
+import FunnelOptimizationHome from './component/Growth2/FunnelOptimizationHome'
+import ViralityNetworkEffects from './component/Growth3/ViralityNetworkEffects'
+import Viralitydashboard from './component/Growth3/Viralitydashboard'
+import CrossFunctionalCollaboration from './component/Growth4/CrossFunctionalCollaboration'
+import ScalabilityAutomation from './component/Growth5/ScalabilityAutomation'
+import AutomationDashbaord from './component/Growth5/AutomationDashbaord'
+import CollaboDb from './component/Growth4/CollaboDb'
+import MonetizationAlignmentModule from './component/Growth6/MonetizationAlignmentModule'
+import Monitizationdashboard from './component/Growth6/Monitizationdashboard'
+import LocalizationExpansionModule    from './component/Growth7/LocalizationExpansionModule'
+import LocalizationDashboard from './component/Growth7/LocalizationDashboard'
+import MarketExplorationProcess from './component/Growth8/MarketExplorationProcess'
+import Marketdashboard from './component/Growth8/Marketdashboard'
+import DigitalMarketingForGrowthPMs from './component/Growth9/DigitalMarketingForGrowthPMs'
+import MarketingDashboard from './component/Growth9/MarketingDashboard'
+import Alldashboard from './component/Alldashboard'
 
 
 
@@ -74,9 +89,26 @@ const App = () => {
         <Route path="/growth" element={< GrowthProductManager/>} />
         <Route path="/growthdb" element={<  GrowthDashboard
        />} />
-       
+        <Route path="/grohome" element={<ExperimentationGuide/>} />
+        <Route path="/growthdashboard" element={<GrowthHome/>} />
+        <Route path="/funnel" element={<FunnelOptimizationHome/>} />
+        <Route path="/viral" element={<ViralityNetworkEffects/>} />
+        <Route path="/viraldashboard" element={<Viralitydashboard/>} />
+        <Route path="/collabo" element={<CrossFunctionalCollaboration/>} /> 
+        <Route path="/automation" element={<ScalabilityAutomation/>} /> 
+        <Route path="/automationdashboard" element={<AutomationDashbaord/>} />  
+        <Route path="/Collabodashboard" element={<CollaboDb/>} />  
+        <Route path="/monitization" element={<MonetizationAlignmentModule/>} />  
+        <Route path="/moneydashboard" element={<Monitizationdashboard/>} />  
+        <Route path="/expansion" element={<LocalizationExpansionModule/>} />  
+        <Route path="/localizationdashboard" element={<LocalizationDashboard/>} />
+        <Route path="/market" element={<MarketExplorationProcess/>} />
+        <Route path="/marketdashboard" element={<Marketdashboard/>} />
+        <Route path="/digital" element={<DigitalMarketingForGrowthPMs/>} />
+        <Route path="/marketingdashboard" element={<MarketingDashboard/>} />
+        <Route path="/all" element={<Alldashboard/>} />
+        
       
-       
 
          {/*Intermidiate*/}
         <Route path="/execstrategy" element={<ExecutionStrategy />} />
@@ -92,7 +124,7 @@ const App = () => {
         <Route path="/apis" element={< APITypesInfo/>} />
         <Route path="/analytics" element={< Analytics/>} />
         <Route path="/prd" element={< PRD/>} />
-        
+    
         
         
         

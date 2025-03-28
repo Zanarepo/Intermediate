@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import GrowthProductManager from './GrowthProductManager';
 import {
   FaChartLine,
   FaUsers,
@@ -95,6 +96,7 @@ const DashboardTiles = () => {
 
   return (
     <div className="p-8 bg-gray-100 min-h-screen">
+      <GrowthProductManager />
       <header className="mb-8 text-center">
         <h1 className="text-4xl font-bold text-gray-800 flex justify-center items-center">
           <FaChartBar className="mr-2" /> Growth Concepts & Strategies
