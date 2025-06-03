@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { FaTachometerAlt, FaChartBar, FaLock, FaUnlock } from 'react-icons/fa';
+import { FaTachometerAlt, FaChartBar, FaLock, FaUnlock, FaUsersCog } from 'react-icons/fa';
 
 const PASSWORD = "growth123";
 
@@ -68,6 +68,10 @@ const Homepage = () => {
             <h3 className="text-sm xs:text-base sm:text-lg font-semibold">Growth Product</h3>
             <FaUnlock className="mt-1 xs:mt-2" />
           </Link>
+
+
+
+
         ) : (
           <>
             <button
@@ -79,6 +83,16 @@ const Homepage = () => {
               <h3 className="text-sm xs:text-base sm:text-lg font-semibold">Locked Content</h3>
               <p className="text-xs sm:text-sm text-gray-200 mt-1">Tap to Unlock</p>
             </button>
+          <Link
+          to="/quiz1"
+          className="flex flex-col items-center justify-center p-2 xs:p-3 rounded-xl bg-gradient-to-br from-pink-100 to-pink-200 text-pink-900 hover:-translate-y-0.5 hover:shadow-lg transition-all duration-300 ease-in-out w-full max-w-full min-h-[90px] sm:w-48"
+          aria-label="Go to Intermediate Lessons"
+        >
+          <FaUsersCog size={24} className="mb-1 xs:mb-2" />
+          <h3 className="text-sm xs:text-base sm:text-lg font-semibold">Final Quiz </h3>
+        </Link>
+
+            
             {showModal && (
               <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-60 z-50">
                 <div className="bg-white p-3 xs:p-4 rounded-xl w-11/12 max-w-[280px] flex flex-col gap-2 shadow-xl">
