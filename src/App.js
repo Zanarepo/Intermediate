@@ -60,6 +60,7 @@ import Alldashboard from './component/Alldashboard'
 import ProductManagementIntro from './component/ProductManagementIntro'
 import Task2 from './component/Task2';
 import Task3 from './component/Task3';
+import Quiz1 from './component/Introduction/Quiz1'; 
 
 
 
@@ -92,8 +93,10 @@ const App = () => {
         <Route path="/tasks" element={< Tasks/>} />
         <Route path="/task2" element={< Task2/>} />
         <Route path="/task3" element={< Task3/>} />
+        <Route path="/quiz1" element={< Quiz1/>} />
 
         <Route path="/marketresearch" element={< ProductManagementIntro/>} />
+
       
 
 
