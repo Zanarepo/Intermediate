@@ -66,7 +66,7 @@ const ProductManagementSimulator = () => {
   ];
 
   return (
-    <div className="max-w-4xl mx-auto p-6 bg-gray-50 rounded-lg shadow-md">
+    <div className="w-full min-h-screen p-4 xs:p-6 sm:p-8 bg-gradient-to-b from-gray-100 to-gray-200 flex flex-col space-y-4 xs:space-y-6 overflow-x-hidden">
       {/* Progress Indicator */}
       <div className="flex mb-6 gap-2">
         {steps.map((_, index) => (

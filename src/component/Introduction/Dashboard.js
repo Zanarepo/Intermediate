@@ -37,7 +37,7 @@ const lessons = [
 
   {
     id: 2,
-    title: "Product Development Lifecycle (PDLC)",
+    title: "Product Development Process",
     component: ProductDevProcess,
     icon: <FaTasks className="text-orange-500" />,
   },
@@ -153,9 +153,9 @@ const DashboardBasic = () => {
               onClick={() => setActiveLesson(null)}
               className="flex items-center mb-4 text-blue-600 hover:text-blue-800"
             >
-              <FaArrowLeft className="mr-2" /> Back to Dashboard Home
+              <FaArrowLeft className="mr-2" /> Back to Home
             </button>
-            <div className="border rounded-lg shadow-lg p-6 bg-white">
+            <div className="bg-white">
               <activeLesson.component />
             </div>
           </>

@@ -30,9 +30,12 @@ import ASF from './component/Intermidiate/ASF'
 import APITypesInfo from './component/Intermidiate/APITypesInfo'
 import Analytics from './component/Intermidiate/Analytics'
 import Task from './component/Task'
+import Tasks from './component/Tasks'
+
 import Home from './component/Home'
 import PRD from './component/PRD'
 import GrowthHome from './component/Growth2/GrowthHome'
+//import internPulsePRD from './component/internPulsePRD'
 
 // Growth PM
 import GrowthProductManager from './component/GrowthPM/GrowthProductManager'
@@ -54,6 +57,9 @@ import Marketdashboard from './component/Growth8/Marketdashboard'
 import DigitalMarketingForGrowthPMs from './component/Growth9/DigitalMarketingForGrowthPMs'
 import MarketingDashboard from './component/Growth9/MarketingDashboard'
 import Alldashboard from './component/Alldashboard'
+import ProductManagementIntro from './component/ProductManagementIntro'
+import Task2 from './component/Task2';
+import Task3 from './component/Task3';
 
 
 
@@ -83,6 +89,12 @@ const App = () => {
         <Route path="/impactmatrix" element={< ImpactEffortMatrix/>} />
         <Route path="/userresearch" element={< UserResearch/>} />
         <Route path="/task" element={< Task/>} />
+        <Route path="/tasks" element={< Tasks/>} />
+        <Route path="/task2" element={< Task2/>} />
+        <Route path="/task3" element={< Task3/>} />
+
+        <Route path="/marketresearch" element={< ProductManagementIntro/>} />
+      
 
 
         {/*GrwothPM*/}

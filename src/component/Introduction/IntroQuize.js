@@ -7,7 +7,7 @@ const ProductManagementIntro = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-8 bg-white shadow-lg rounded-lg space-y-6 border border-gray-200">
+    <div className="w-full min-h-screen p-4 xs:p-6 sm:p-8 bg-gradient-to-b from-gray-100 to-gray-200 flex flex-col space-y-4 xs:space-y-6 overflow-x-hidden">
       <h1 className="text-4xl font-bold text-blue-600 text-center">Product Management Quizzes</h1>
       <p className="text-gray-700 text-lg text-center">
         Product Management is at the heart of building great products that solve real problems for customers. It combines

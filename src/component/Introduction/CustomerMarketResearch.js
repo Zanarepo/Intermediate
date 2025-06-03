@@ -65,7 +65,8 @@ const Quiz = ({ quizId, question, options, correctAnswer }) => {
 /* Main PM Concepts Component */
 const PMConcepts = () => {
   return (
-    <div className="max-w-3xl mx-auto bg-white rounded-lg shadow p-6 my-10">
+        <div className="w-full min-h-screen p-4 xs:p-6 sm:p-8 bg-gradient-to-b from-gray-100 to-gray-200 flex flex-col space-y-4 xs:space-y-6 overflow-x-hidden">
+
       {/* Print Button */}
       <button
         onClick={() => window.print()}
